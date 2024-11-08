@@ -1,5 +1,15 @@
 # Prerequisites
 *.d
+*.vsidx
+*.ipch
+*.suo
+*.vc.db
+*.json
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.pdb
+*.sln
 
 # Compiled Object files
 *.slo
