@@ -16,7 +16,8 @@
 *.ilk
 *.log
 *.idb
-
+*.exe.recipe
+*.ilk
 # Compiled Object files
 *.slo
 *.lo
