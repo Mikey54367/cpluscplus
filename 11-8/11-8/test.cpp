@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
-	cout << "hello\n" << endl;
+	int a = 1, b = 2;
+	cout << a + b << endl;
 	return 0;
 }
