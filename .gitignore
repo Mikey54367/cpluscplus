@@ -10,6 +10,12 @@
 *.vcxproj.user
 *.pdb
 *.sln
+*.tlog
+*.lastbuildstate
+*.exe.recipe
+*.ilk
+*.log
+*.idb
 
 # Compiled Object files
 *.slo
