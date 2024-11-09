@@ -30,7 +30,7 @@ int findMaxLength(vector<int>& nums) {
     for (int i = 0; i < nums.size(); ++i)
     {
         sum += nums[i];
-        if (hash.find(sum) != hash.end()) ret = max(ret, i - hash[sum] );
+        if (hash.find(sum) != hash.end()) ret = max(ret, i - hash[sum]);
         if (hash.find(sum) == hash.end()) hash[sum] = i;
     }
     return ret;
@@ -82,6 +82,6 @@ int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
 int main()
 {
 
-    
-	return 0;
+
+    return 0;
 }
